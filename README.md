@@ -2,7 +2,9 @@
 基于系统导航栏的上滑渐变效果，上滑逐渐变透明，上滑64pt后完全变透明
 
 核心代码
-在scrollViewDidScroll方法中 改变navigationBar的背景图层的alpha 
+在scrollViewDidScroll方法中 改变navigationBar的背景图层的alpha
+
+```
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
 
     if (!_barImageView) {
